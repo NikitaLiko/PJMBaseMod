@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "ru.liko.pjmbasemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerPlayerGameModeMixin",
+    "FoodDataMixin",
+    "ItemEntityMixin",
+    "PlayerMixin"
+  ],
+  "client": [
+    "InventoryScreenMixin",
+    "OptionsMixin",
+    "MouseHandlerMixin",
+    "ConnectScreenMixin",
+    "WindowMixin",
+    "DeathScreenMixin",
+    "SoundEngineMixin",
+    "PlayerInfoMixin",
+    "PlayerTabOverlayMixin",
+    "ViewBobbingLockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

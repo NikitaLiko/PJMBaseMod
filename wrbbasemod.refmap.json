@@ -1,0 +1,104 @@
+{
+  "mappings": {
+    "ru/liko/warbornguard/mixin/TrackedEntityMixin": {
+      "addPairing": "Lnet/minecraft/server/level/ServerEntity;m_8541_(Lnet/minecraft/server/level/ServerPlayer;)V"
+    },
+    "ru/liko/wrbbasemod/mixin/DeathScreenMixin": {
+      "init": "Lnet/minecraft/client/gui/screens/DeathScreen;m_7856_()V",
+      "render": "Lnet/minecraft/client/gui/screens/DeathScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+    },
+    "ru/liko/wrbbasemod/mixin/SoundEngineMixin": {
+      "play": "Lnet/minecraft/client/sounds/SoundEngine;m_120312_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V",
+      "playDelayed": "Lnet/minecraft/client/sounds/SoundEngine;m_120276_(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V",
+      "tick": "Lnet/minecraft/client/sounds/SoundEngine;m_120302_(Z)V"
+    },
+    "ru/liko/wrbbasemod/mixin/ServerPlayerGameModeMixin": {
+      "destroyBlock": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9280_(Lnet/minecraft/core/BlockPos;)Z",
+      "useItemOn": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7179_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "ru/liko/wrbbasemod/mixin/ItemEntityMixin": {
+      "playerTouch": "Lnet/minecraft/world/entity/item/ItemEntity;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "ru/liko/wrbbasemod/mixin/InventoryScreenMixin": {
+      "render": "Lnet/minecraft/client/gui/screens/inventory/InventoryScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+    },
+    "ru/liko/wrbbasemod/mixin/PlayerMixin": {
+      "drop(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/player/Player;m_7197_(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;"
+    },
+    "ru/liko/wrbbasemod/mixin/OptionsMixin": {
+      "keyPress(JIIII)V": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+    },
+    "ru/liko/wrbbasemod/mixin/WindowMixin": {
+      "setTitle": "Lcom/mojang/blaze3d/platform/Window;m_85422_(Ljava/lang/String;)V"
+    },
+    "ru/liko/wrbbasemod/mixin/ConnectScreenMixin": {
+      "init": "Lnet/minecraft/client/gui/screens/ConnectScreen;m_7856_()V"
+    },
+    "ru/liko/wrbbasemod/mixin/MinecraftMixin": {
+      "setScreen": "Lnet/minecraft/client/Minecraft;m_91152_(Lnet/minecraft/client/gui/screens/Screen;)V"
+    },
+    "ru/liko/wrbbasemod/mixin/PlayerInfoMixin": {
+      "getSkinLocation()Lnet/minecraft/resources/ResourceLocation;": "Lnet/minecraft/client/multiplayer/PlayerInfo;m_105337_()Lnet/minecraft/resources/ResourceLocation;"
+    },
+    "ru/liko/wrbbasemod/mixin/MouseHandlerMixin": {
+      "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V"
+    },
+    "ru/liko/wrbbasemod/mixin/FoodDataMixin": {
+      "addExhaustion": "Lnet/minecraft/world/food/FoodData;m_38703_(F)V",
+      "eat": "Lnet/minecraft/world/food/FoodData;m_38707_(IF)V",
+      "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "ru/liko/warbornguard/mixin/TrackedEntityMixin": {
+        "addPairing": "Lnet/minecraft/server/level/ServerEntity;m_8541_(Lnet/minecraft/server/level/ServerPlayer;)V"
+      },
+      "ru/liko/wrbbasemod/mixin/DeathScreenMixin": {
+        "init": "Lnet/minecraft/client/gui/screens/DeathScreen;m_7856_()V",
+        "render": "Lnet/minecraft/client/gui/screens/DeathScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+      },
+      "ru/liko/wrbbasemod/mixin/SoundEngineMixin": {
+        "play": "Lnet/minecraft/client/sounds/SoundEngine;m_120312_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V",
+        "playDelayed": "Lnet/minecraft/client/sounds/SoundEngine;m_120276_(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V",
+        "tick": "Lnet/minecraft/client/sounds/SoundEngine;m_120302_(Z)V"
+      },
+      "ru/liko/wrbbasemod/mixin/ServerPlayerGameModeMixin": {
+        "destroyBlock": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9280_(Lnet/minecraft/core/BlockPos;)Z",
+        "useItemOn": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7179_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "ru/liko/wrbbasemod/mixin/ItemEntityMixin": {
+        "playerTouch": "Lnet/minecraft/world/entity/item/ItemEntity;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "ru/liko/wrbbasemod/mixin/InventoryScreenMixin": {
+        "render": "Lnet/minecraft/client/gui/screens/inventory/InventoryScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+      },
+      "ru/liko/wrbbasemod/mixin/PlayerMixin": {
+        "drop(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/player/Player;m_7197_(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;"
+      },
+      "ru/liko/wrbbasemod/mixin/OptionsMixin": {
+        "keyPress(JIIII)V": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+      },
+      "ru/liko/wrbbasemod/mixin/WindowMixin": {
+        "setTitle": "Lcom/mojang/blaze3d/platform/Window;m_85422_(Ljava/lang/String;)V"
+      },
+      "ru/liko/wrbbasemod/mixin/ConnectScreenMixin": {
+        "init": "Lnet/minecraft/client/gui/screens/ConnectScreen;m_7856_()V"
+      },
+      "ru/liko/wrbbasemod/mixin/MinecraftMixin": {
+        "setScreen": "Lnet/minecraft/client/Minecraft;m_91152_(Lnet/minecraft/client/gui/screens/Screen;)V"
+      },
+      "ru/liko/wrbbasemod/mixin/PlayerInfoMixin": {
+        "getSkinLocation()Lnet/minecraft/resources/ResourceLocation;": "Lnet/minecraft/client/multiplayer/PlayerInfo;m_105337_()Lnet/minecraft/resources/ResourceLocation;"
+      },
+      "ru/liko/wrbbasemod/mixin/MouseHandlerMixin": {
+        "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V"
+      },
+      "ru/liko/wrbbasemod/mixin/FoodDataMixin": {
+        "addExhaustion": "Lnet/minecraft/world/food/FoodData;m_38703_(F)V",
+        "eat": "Lnet/minecraft/world/food/FoodData;m_38707_(IF)V",
+        "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V"
+      }
+    }
+  }
+}

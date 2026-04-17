@@ -1,0 +1,49 @@
+# NeoForge 1.21.1 mod metadata file
+# https://docs.neoforged.net/docs/gettingstarted/modfiles#neoforgemodstoml
+
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+#issueTrackerURL = ""
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+displayURL = "https://discord.gg/gV3jYaEtDa"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+# NeoForge 1.21.1: Use 'neoforge' instead of 'forge'
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "${neoforge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+# Optional dependencies
+[[dependencies.${mod_id}]]
+modId = "geckolib"
+type = "optional"
+versionRange = "[4.7,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "curios"
+type = "optional"
+versionRange = "[9.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# Mixin configuration
+[[mixins]]
+config = "${mod_id}.mixins.json"

@@ -1,0 +1,49 @@
+{
+"explosion_close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "superbwarfare:explosion/explosion_close",
+        "stream": false
+      },
+      {
+        "name": "superbwarfare:explosion/explosion_close2",
+        "stream": false
+      },
+      {
+        "name": "superbwarfare:explosion/explosion_close3",
+        "stream": false
+      }
+    ]
+  },
+  "explosion_far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "superbwarfare:explosion/explosion_far",
+        "stream": false
+      },
+      {
+        "name": "superbwarfare:explosion/explosion_far2",
+        "stream": false
+      },
+      {
+        "name": "superbwarfare:explosion/explosion_far3",
+        "stream": false
+      }
+    ]
+  },
+  "explosion_very_far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "superbwarfare:explosion/explosion_very_far",
+        "stream": false
+      },
+      {
+        "name": "superbwarfare:explosion/explosion_very_far2",
+        "stream": false
+      }
+    ]
+  }
+}

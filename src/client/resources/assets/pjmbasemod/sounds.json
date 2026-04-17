@@ -1,0 +1,149 @@
+{
+  "gau9_fire_far_02": {
+    "sounds": [
+      {
+        "name": "pjmbasemod:gau9_fire_far_02",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.pjmbasemod.gau9_fire"
+  },
+  "plane_distance_front": {
+    "sounds": [
+      {
+        "name": "pjmbasemod:plane_distance_front",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.pjmbasemod.plane_approaching"
+  },
+  "plane_distance_back": {
+    "sounds": [
+      {
+        "name": "pjmbasemod:plane_distance_back",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.pjmbasemod.plane_departing"
+  },
+  "plane_flyby": {
+    "sounds": [
+      {
+        "name": "pjmbasemod:plane_distance_front",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.pjmbasemod.plane_flyby"
+  },
+  "menu.loading": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pjmbasemod:menu/loading_1"
+      },
+      {
+        "name": "pjmbasemod:menu/loading_2"
+      },
+      {
+        "name": "pjmbasemod:menu/loading_3"
+      }
+    ]
+  },
+  "menu.music": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pjmbasemod:menu/music_1",
+        "stream": true
+      },
+      {
+        "name": "pjmbasemod:menu/music_2",
+        "stream": true
+      },
+      {
+        "name": "pjmbasemod:menu/music_3",
+        "stream": true
+      }
+    ]
+  },
+  "radio.start": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_01"
+      },
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_02"
+      },
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_03"
+      },
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_04"
+      },
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_05"
+      },
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_06"
+      },
+      {
+        "name": "pjmbasemod:radio/start/squad_radio_start_07"
+      }
+    ]
+  },
+  "radio.end": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_01"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_02"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_03"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_04"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_05"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_06"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_07"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_08"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_09"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_10"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_11"
+      },
+      {
+        "name": "pjmbasemod:radio/end/squad_radio_end_12"
+      }
+    ]
+  },
+  "radio.background": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "pjmbasemod:radio/radio_static_background_01",
+        "stream": true
+      },
+      {
+        "name": "pjmbasemod:radio/radio_static_background_02",
+        "stream": true
+      }
+    ]
+  }
+}
